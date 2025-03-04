@@ -2,9 +2,11 @@
   "name": "Moodle dark mode!",
   "description": "Dark mode version of moodle..      Program by Guacamoleboy",
   "version": "1.0",
+  "browser_specific_settings": {
   "gecko": {
-    "id": "cph-jl325@cphbusiness.dk"
-  },
+    "id": "cph-jl325@cphbusiness.dk2"
+  }
+},
   "manifest_version": 3,
     "icons": {
       "16": "images/16.png",
