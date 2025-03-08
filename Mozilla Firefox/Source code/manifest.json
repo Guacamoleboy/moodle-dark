@@ -1,7 +1,7 @@
 {
   "name": "Moodle dark mode!",
   "description": "Dark mode version of moodle..      Program by Guacamoleboy",
-  "version": "1.0",
+  "version": "1.1",
   "browser_specific_settings": {
   "gecko": {
     "id": "cph-jl325@cphbusiness.dk3"
@@ -16,7 +16,8 @@
   "content_scripts": [
     {
       "matches": ["https://cphbusiness.mrooms.net/*"],
-      "css": ["scripts/mrooms.css"]
+      "css": ["scripts/mrooms.css"],
+      "js": ["scripts/moodle.js"]
     },
     {
       "matches": ["https://adfs.efif.dk/*"],
