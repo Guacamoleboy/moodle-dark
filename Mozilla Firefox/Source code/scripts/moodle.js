@@ -1,3 +1,5 @@
+// Fix for Flow 2 link not working
+
 var x = document.getElementsByTagName("a")
 for (i = 0; i < x.length; i++) {
   if (x[i].getAttribute("href") == "https://dat1cphbusiness.github.io/content/Java_IntelliJ-File/") {
